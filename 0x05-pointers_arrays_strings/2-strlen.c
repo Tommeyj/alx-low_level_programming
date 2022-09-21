@@ -6,12 +6,10 @@
 *
 * Return: The length of @str.
 */
-int _strlen(const char *str)
+int _strlen(char *str)
 {
-	int length = 0;
+	int c;
 
-	while (*str++)
-		length++;
-
-	return (length);
+	for (c = 0; s[c] != 0; c++);
+	return (c);
 }
