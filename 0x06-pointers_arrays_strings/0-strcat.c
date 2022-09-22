@@ -1,14 +1,15 @@
 #include "main.h"
 
 /**
-* *_strcat - catenatte @src to @dest
-* main - check code
-* @dest: an input string
-* @src: an input string
-* Return: A pointer to the resulting string
+* main - check the code
 *
+* Return: Always 0.
 */
-
-
-char *_strcat(char *dest, char *src);
-return (dest);
+int main(void)
+{
+	char s1[98] = "dest ";
+	char s2[] = "src\n";
+	char *ptr;
+	ptr = _strcat(s1, s2);
+	return (ptr);
+}
