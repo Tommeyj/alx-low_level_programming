@@ -8,18 +8,12 @@
 * Return: A pointer to the resulting string
 *
 */
+char *dest;
+char *src;
 
-char *_strcat(char *dest, char *src)
+int main()
 {
-	char *temp = dest;
-
-	while (*dest[length] != '\0')
-	{++length;
-	}
-	for (j = 0; *src[j] != '\0'; ++j, ++length)
-	{
-		*dest[length] = *src[j];
-	}
-	*dest[length] = '\0';
-	return (temp);
+	char *_strcat(char *dest, char *src);
+	
+	return (dest);
 }
