@@ -12,5 +12,6 @@ int main(void)
 	char *ptr;
 
 	ptr = char *_strcat(s1, s2);
-	return (ptr);
+	_putchar(s1[]);
+	return (0);
 }
