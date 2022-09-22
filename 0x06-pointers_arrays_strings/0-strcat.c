@@ -7,7 +7,7 @@
 */
 int main(void)
 {
-	char s1[98] = "dest ";
+	char s1[98] = "dest";
 	char s2[] = "src\n";
 	char *ptr;
 
